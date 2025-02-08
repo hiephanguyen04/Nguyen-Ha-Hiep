@@ -1,4 +1,3 @@
-// Iterative approach
 var sum_to_n_a = function(n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
@@ -7,15 +6,11 @@ var sum_to_n_a = function(n) {
   return sum;
 };
 
-// Mathematical formula approach (Gauss' formula)
 var sum_to_n_b = function(n) {
   return (n * (n + 1)) / 2;
 };
 
-// Recursive approach
 var sum_to_n_c = function(n) {
-  if (n === 1) {
-      return 1;
-  }
+  if (n <= 0) return 0;
   return n + sum_to_n_c(n - 1);
 };
