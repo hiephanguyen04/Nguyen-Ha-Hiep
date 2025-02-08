@@ -87,4 +87,3 @@ if (lhsPriority > -99) {
 ✅ **Merges filter + map + sort into a single pass** for better efficiency.
 ✅ **Removes unnecessary variables (`formattedBalances`).**
 ✅ **Uses `currency` as `key`, ensuring stable rendering.**
-
